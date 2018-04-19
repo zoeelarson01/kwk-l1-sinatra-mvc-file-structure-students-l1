@@ -174,3 +174,4 @@ which check the actual behavior for users.
 Don't forget to run your tests!
 
 <p class='util--hide'>View <a href='https://learn.co/lessons/sinatra-mvc-file-structure'>Sinatra MVC File Structure</a> on Learn.co and start learning to code for free.</p>
+<p data-visibility='hidden'>KWK-L1 Sinatra MVC File Structure</p>
