@@ -87,11 +87,12 @@ also keep track of each instance of dog created, as well as a class method
 
 #### `controllers` directory
 
-The controllers, such as `application_controller.rb`, are where the application configurations, routes, and controller actions are implemented. There is
-typically a class, which in this case we will call `ApplicationController`,
-that represents an instance of your application when the server is up and
-running. The `application_controller.rb` file represents the "C" components of
-the MVC paradigm.
+The controllers, such as `application_controller.rb`, are where the application
+configurations, routes, and controller actions are implemented. There is
+typically a class, which in this case we will call `ApplicationController`, that
+represents an instance of your application when the server is up and running.
+The `application_controller.rb` file represents the "C" components of the MVC
+paradigm.
 
 (In some simple applications –– including several labs and code-alongs in this
 track –– the Application Controller will simply be called `app.rb` and will
@@ -137,7 +138,8 @@ We've already told the controller how to load this file in the view.
 
 ### `config.ru` file
 
-A `config.ru` file is necessary when building Rack-based applications and using `rackup`/`shotgun` to start the application server (the ru stands for rackup).
+A `config.ru` file is necessary when building Rack-based applications and using
+`rackup`/`shotgun` to start the application server (the ru stands for rackup).
 
 `config.ru` is first responsible for loading our application environment, code,
 and libraries.
@@ -173,5 +175,4 @@ which check the actual behavior for users.
 
 Don't forget to run your tests!
 
-<p class='util--hide'>View <a href='https://learn.co/lessons/sinatra-mvc-file-structure'>Sinatra MVC File Structure</a> on Learn.co and start learning to code for free.</p>
 <p data-visibility='hidden'>KWK-L1 Sinatra MVC File Structure</p>
