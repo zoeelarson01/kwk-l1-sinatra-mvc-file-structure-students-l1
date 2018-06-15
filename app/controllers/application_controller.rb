@@ -18,16 +18,16 @@ class ApplicationController < Sinatra::Base
   get '/results' do
     erb :results
   end
-  post '/results' do
+  # post '/results' do
 
-    vegan = params[:vegan]
-    peanut_free = params[:peanut_free]
-    tree_nut_free = params[:tree_nut_free]
-    milk_free = params[:milk_free]
-    egg_free = params[:egg_free]
-    soy_free = params[:soy_free]
-    gluten_free = params[:gluten_free]
+  #   vegan = params[:vegan]
+  #   peanut_free = params[:peanut_free]
+  #   tree_nut_free = params[:tree_nut_free]
+  #   milk_free = params[:milk_free]
+  #   egg_free = params[:egg_free]
+  #   soy_free = params[:soy_free]
+  #   gluten_free = params[:gluten_free]
 
-    puts :params
-  end
+  #   puts :params
+  # end
 end
