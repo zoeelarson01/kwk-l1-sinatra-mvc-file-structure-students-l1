@@ -10,7 +10,7 @@ class ApplicationController < Sinatra::Base
   end
 
   get '/survey' do
-    puts params
+    # puts params
 
     erb :survey
   end
