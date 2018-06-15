@@ -1,0 +1,182 @@
+body {
+  font-family: 'Poiret One';
+  background-image: url("https://image.freepik.com/free-photo/ice-cream-concept-with-copyspace-on-top_23-2147811019.jpg");
+  background-size: 820px 900px;
+}
+
+
+.head1{
+  text-align: center;
+  font-size: 30px;
+  background-color: #40E0D0;
+  margin-top: 150px;
+  padding: 5px 5px;
+}
+
+.head2{
+  font-size: 17px;
+  text-align: center;
+  background-color: white;
+  margin-left: 60px;
+  margin-right: 60px;
+  padding: 15px 15px;
+}
+
+button{
+  font-family: 'Poiret One';font-size: 22px;
+}
+
+
+.a{color: #E7484F}
+.b{color: #F68B1D}
+.c{color: #FCED00}
+.d{color: #009E4F}
+.e{color: #00AAC3}
+.f{color:  #732982}
+
+.container{
+  margin-top: 70px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.rainbow{
+  background-color: #800000;
+  border-radius: 8px;
+  color: #fff;
+  cursor: pointer;
+  padding: 15px 25px;
+  font-size: 40px
+}
+
+.rainbow-1:hover{
+   background-image: linear-gradient(90deg, #00C0FF 0%, #FFCF00 49%, #FC4F4F 80%, #00C0FF 100%);
+   animation:slidebg 2s linear infinite;
+}
+
+.rainbow-2:hover{
+  background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet, red);
+  animation:slidebg 2s linear infinite;
+}
+
+.rainbow-3:hover{
+  background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, red);
+  animation:slidebg 2s linear infinite;
+}
+
+.rainbow-4:hover{
+   background-image:     linear-gradient(
+      to right,
+      #E7484F,
+      #F68B1D,
+      #FCED00,
+      #009E4F,
+      #00AAC3,
+      #732982
+    );
+  animation:slidebg 2s linear infinite;
+}
+
+
+.rainbow-5:hover{
+   background-image:     linear-gradient(
+      to right,
+      #E7484F,
+      #E7484F 16.65%,
+      #F68B1D 16.65%,
+      #F68B1D 33.3%,
+      #FCED00 33.3%,
+      #FCED00 49.95%,
+      #009E4F 49.95%,
+      #009E4F 66.6%,
+      #00AAC3 66.6%,
+      #00AAC3 83.25%,
+      #732982 83.25%,
+      #732982 100%,
+      #E7484F 100%
+    );
+  animation:slidebg 2s linear infinite;
+}
+
+
+@keyframes slidebg {
+  to {
+    background-position:20vw;
+  }
+}
+
+.follow{
+  margin-top: 40px;
+}
+
+.follow a{
+  color: black;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+.container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.container input:checked ~ .checkmark {
+  background-color: #2196F3;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.container .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
